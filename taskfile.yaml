@@ -4,7 +4,7 @@ dotenv: ['./.env']
 
 vars:
   IMAGE_REPO: "{{.USER}}/suse-observability-token-fetcher"
-  VERSION: 0.0.1
+  VERSION: 0.0.2
 
 tasks:
   docker-build:

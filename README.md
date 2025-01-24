@@ -41,7 +41,7 @@ cat token.txt
 ### Run using Docker
 
 ```bash 
-docker run --rm -v .:/workspace ravan/suse-observability-token-fetcher:0.0.1 /app/so-token-fetcher -o /workspace/token.txt --url https://xxxx -u admin -p xxx
+docker run --rm -v .:/workspace ravan/suse-observability-token-fetcher:latest /app/so-token-fetcher -o /workspace/token.txt --url https://xxxx -u admin -p xxx
 
 ```
 
